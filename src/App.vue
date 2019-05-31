@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MenuBar company_name = "Menu bar component"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+// adding my componenets for app
+import MenuBar from './components/MenuBar.vue'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    MenuBar
   }
 }
 </script>
